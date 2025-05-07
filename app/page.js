@@ -5,9 +5,10 @@ import Slider from "./components/slider/page";
 export default function Home() {
   return (
     <>
-      <Head />
+    Ajustes de Servidor
+      {/* <Head />
       <Logo />
-      <Slider />
+      <Slider /> */}
     </>
   );
 }
