@@ -1,29 +1,29 @@
-// import Head from "./components/head/page";
-// import Logo from "./components/logo/page";
-// import Slider from "./components/slider/page";
-import Counter from "./components/counter/Counter";
+import Head from "./components/head";
+import Logo from "./components/logo";
+import Slider from "./components/slider";
+import Highlights from "./components/highlights";
+import About from "./components/about";
+import Services from "./components/services";
+import Customers from "./components/customers";
+import Testimonials from "./components/testimonials";
+import Team from "./components/team";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
     <>
-      <div className="flex min-h-screen items-center justify-center bg-gradient-to-r from-black to-gray-900 text-white">
-        <div className="text-center space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold">
-            Nosso site está quase no ar!
-          </h1>
-          <p className="text-lg md:text-xl">Faltam apenas</p>
-
-          <Counter />
-
-          <p className="text-sm md:text-base">
-            Fique ligado! Estamos preparando algo incrível.
-          </p>
-        </div>
-      </div>
-
-      {/* <Head />
+      <Head />
       <Logo />
-      <Slider /> */}
+      <Slider />
+      <Highlights />
+      <About />
+      <Services />
+      <Customers />
+      <Testimonials />
+      <Team />
+      <Contact />
+      <Footer />
     </>
   );
 }
