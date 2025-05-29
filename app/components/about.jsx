@@ -1,7 +1,134 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck, faPhone } from "@fortawesome/free-solid-svg-icons";
+
 export default function About() {
-    return (
-        <section className="p-20 bg-gray-400 text-center">
-            About Us Sections
-        </section>
-    )
+  return (
+    <section className="p-20 bg-[#E9E9E9] flex">
+      <div
+        className="flex-1 mx-20 min-w-[200px] sm:w-[calc(50%-10px)] lg:w-[calc(25%-15px)] h-[600px] rounded-lg overflow-hidden relative"
+        style={{
+          clipPath:
+            "polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)",
+        }}
+      >
+        <img
+          src="./about-1.png"
+          alt="Organização elétrica"
+          className="w-full h-full object-cover"
+        />
+
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+
+        <div className="absolute inset-0 flex items-center justify-center text-white text-base font-medium">
+          {/* Organização em todo projeto */}
+        </div>
+      </div>
+
+      <div className="flex-1">
+        <p className="text-[#ED7C2F] font-bold uppercase pb-4">- Sobre Nós</p>
+
+        <h2 className="text-3xl pb-4 font-bold">
+          Trazendo à nossos clientes instalações elétricas seguras
+        </h2>
+
+        <p>
+          A Mega 2B nasceu à partir da experiência de dois sócios, os quais ao
+          exerceram suas atividades profissionais perceberam que seus clientes
+          necessitavam de fornecedores adequados e capacitados para a realização
+          de serviços em indústrias, condomínios, hotéis e escritórios.
+        </p>
+
+        <div className="flex my-10">
+          <div className="flex-1">
+            <p className="font-bold pb-4">Por que nos escolher?</p>
+            <ul>
+              <li className="text-sm">
+                <span className="flex items-center gap-2">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="w-4 h-4 text-[#ED7C2F]"
+                  />
+                  Experiência no Processo
+                </span>
+              </li>
+
+              <li className="text-sm">
+                <span className="flex items-center gap-2">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="w-4 h-4 text-[#ED7C2F]"
+                  />
+                  Ótimo Custo-Benefício
+                </span>
+              </li>
+
+              <li className="text-sm">
+                <span className="flex items-center gap-2">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="w-4 h-4 text-[#ED7C2F]"
+                  />
+                  Qualidade Garantida
+                </span>
+              </li>
+
+              <li className="text-sm">
+                <span className="flex items-center gap-2">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="w-4 h-4 text-[#ED7C2F]"
+                  />
+                  Excelência no Serviço
+                </span>
+              </li>
+
+              <li className="text-sm">
+                <span className="flex items-center gap-2">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="w-4 h-4 text-[#ED7C2F]"
+                  />
+                  Atendimento 24 horas
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div className="flex-1">
+            <div
+              className="flex-1 min-w-[280px] sm:w-[calc(50%-10px)] lg:w-[calc(25%-15px)] h-[230px] rounded-lg overflow-hidden relative"
+              style={{
+                clipPath:
+                  "polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)",
+              }}
+            >
+              <img
+                src="./about-2.png"
+                alt="Sobre Nós"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex-1/12 rounded-full px-4 py-4 bg-white w-12 h-12 mr-4">
+            <FontAwesomeIcon
+              icon={faPhone}
+              className="w-4 h-4 text-[#ED7C2F]"
+            />
+          </div>
+
+          <div className="flex-11/12">
+            <p>Tem alguma questão? Ligue-nos!</p>
+            <p>(12) 99999-9999</p>
+          </div>
+        </div>
+
+        <div className="bg-[#ED7C2F] text-white px-2 py-4 items-center text-center rounded-lg mt-6">
+          <span>Ou clique aqui para entrar em contato pelo WhatsApp</span>
+        </div>
+      </div>
+    </section>
+  );
 }
