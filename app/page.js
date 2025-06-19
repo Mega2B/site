@@ -13,7 +13,7 @@ import Footer from "./components/footer";
 export default function Home() {
   return (
     <>
-      <Head />
+      {/* <Head />
       <Logo />
       <Slider />
       <Highlights />
@@ -23,7 +23,12 @@ export default function Home() {
       <Testimonials />
       <Team />
       <Contact />
-      <Footer />
+      <Footer /> */}
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 font-bold text-xl">
+        <p>Oops, somehing went wrong!</p>
+        <p>Please refresh the page or wait a few minutes and try again.</p>
+      </div>
+      
     </>
   );
 }
