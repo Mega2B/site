@@ -9,6 +9,8 @@ import Testimonials from "./components/testimonials";
 import Team from "./components/team";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Credits from "./components/credits";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,11 +25,12 @@ export default function Home() {
       <Testimonials />
       <Team />
       <Contact />
-      <Footer /> */}
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 font-bold text-xl">
-        <p>Reloading...</p>
+      <Footer />
+      <Credits /> */}
+
+      <div className="flex justify-center items-center h-screen bg-gray-100">
+        <Image src="/logo.png" alt="Logo" width={500} height={300} />
       </div>
-      
     </>
   );
 }
