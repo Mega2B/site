@@ -6,8 +6,8 @@ import {
 
 export default function Services() {
   return (
-    <section className="p-20 bg-white">
-      <div className="flex md:flex-row">
+    <section className="p-2 pt-12 pb-12md:p-20 bg-white">
+      <div className="flex flex-col md:flex-row">
         <div className="flex-1">
           <p className="text-[#ED7C2F] font-bold uppercase pb-4">
             - Nossos Serviços
@@ -25,7 +25,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="flex mt-8 gap-5 text-center w-full">
+      <div className="flex flex-col md:flex-row mt-8 gap-5 text-center w-full pb-12">
         <div className="flex flex-col items-center justify-center flex-[0.5]">
           <FontAwesomeIcon
             icon={faArrowAltCircleRight}

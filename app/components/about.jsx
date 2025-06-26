@@ -3,7 +3,7 @@ import { faCheck, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   return (
-    <section className="p-20 bg-[#E9E9E9] flex">
+    <section className="p-2 pt-12 pb-12 md:p-20 bg-[#E9E9E9] flex flex-col md:flex-row">
       <div
         className="flex-1 mx-20 min-w-[200px] sm:w-[calc(50%-10px)] lg:w-[calc(25%-15px)] h-[600px] rounded-lg overflow-hidden relative"
         style={{
@@ -17,7 +17,6 @@ export default function About() {
           className="w-full h-full object-cover"
         />
 
-
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
 
         <div className="absolute inset-0 flex items-center justify-center text-white text-base font-medium">
@@ -25,7 +24,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="flex-1">
+      <div className="flex-1 p-2 pt-12">
         <p className="text-[#ED7C2F] font-bold uppercase pb-4">- Sobre Nós</p>
 
         <h2 className="text-3xl pb-4 font-bold">
@@ -39,9 +38,9 @@ export default function About() {
           de serviços em indústrias, condomínios, hotéis e escritórios.
         </p>
 
-        <div className="flex my-10">
-          <div className="flex-1">
-            <p className="font-bold pb-4">Por que nos escolher?</p>
+        <div className="flex flex-col md:flex-row my-10">
+          <div className="flex-1 pb-8 md:pb-0">
+            <p className="font-bold">Por que nos escolher?</p>
             <ul>
               <li className="text-sm">
                 <span className="flex items-center gap-2">

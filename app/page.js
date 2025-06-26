@@ -10,12 +10,11 @@ import Team from "./components/team";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Credits from "./components/credits";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      {/* <Head />
+      <Head />
       <Logo />
       <Slider />
       <Highlights />
@@ -26,11 +25,7 @@ export default function Home() {
       <Team />
       <Contact />
       <Footer />
-      <Credits /> */}
-
-      <div className="flex justify-center items-center h-screen bg-gray-100">
-        <Image src="/logo.png" alt="Logo" width={500} height={300} />
-      </div>
+      <Credits />
     </>
   );
 }
