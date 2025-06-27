@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Slider() {
   return (
-    <section className="p-12 bg-[#1F242E]">
+    <section className="p-4 md:p-12 bg-[#1F242E]">
       <div className="flex">
         <div className="flex-1 p-21 text-white">
           <p className="text-sm mb-2">Mais Segurança</p>
