@@ -28,7 +28,7 @@ export default function About() {
         <p className="text-[#ED7C2F] font-bold uppercase pb-4">- Sobre Nós</p>
 
         <h2 className="text-3xl pb-4 font-bold">
-          Trazendo à nossos clientes instalações elétricas seguras
+          Trazendo aos nossos clientes instalações elétricas seguras
         </h2>
 
         <p>
@@ -81,16 +81,7 @@ export default function About() {
                   Excelência no Serviço
                 </span>
               </li>
-
-              <li className="text-sm">
-                <span className="flex items-center gap-2">
-                  <FontAwesomeIcon
-                    icon={faCheck}
-                    className="w-4 h-4 text-[#ED7C2F]"
-                  />
-                  Atendimento 24 horas
-                </span>
-              </li>
+              
             </ul>
           </div>
           <div className="flex-1">
@@ -120,7 +111,7 @@ export default function About() {
 
           <div className="flex-11/12">
             <p>Tem alguma questão? Ligue-nos!</p>
-            <p>(12) 99999-9999</p>
+            <p>(11) 96372-5837</p>
           </div>
         </div>
 

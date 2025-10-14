@@ -22,20 +22,6 @@ export default function Footer() {
         <p className="text-xs mb-6 text-[#717580]">
           Entregando qualidade e garantia na prestação de serviços elétricos.
         </p>
-        <ul className="flex flex-row gap-4 mt-4 text-[#1F242E]">
-          <li>
-            <FontAwesomeIcon icon={faFacebook} className="w-4 h-4" />
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faInstagram} className="w-4 h-4" />
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faLinkedin} className="w-4 h-4" />
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faTwitter} className="w-4 h-4" />
-          </li>
-        </ul>
       </div>
 
       <div className="flex-1 pt-8 md:pt-0 md:pr-10">
@@ -67,6 +53,7 @@ export default function Footer() {
           <li className="mb-2">Reinstalação</li>
           <li className="mb-2">Vistoria</li>
           <li className="mb-2">Projetos Elétricos</li>
+          <li className="mb-2">Montagem de Painéis</li>
         </ul>
       </div>
 
@@ -80,14 +67,17 @@ export default function Footer() {
 
         <ul className="text-xs text-[#717580]">
           <li className="mb-2">
-            Ligue-nos: <br />
-            (12) 9 9999-9999
+            <span className="font-bold">Ligue-nos:</span> <br />
+            (11) 96372-5837 (Marcelo) <br />
+            (11) 97444-1364 (Adriano)
           </li>
-          <li>Suporte: mega2bengenharia@gmail.com</li>
+          <li>
+            <span className="font-bold">Suporte:</span> contato@mega2bengenharia.com.br
+            </li>
         </ul>
       </div>
 
-      <div className="flex-1 pt-8 md:pt-0">
+      {/* <div className="flex-1 pt-8 md:pt-0">
         <h3 className="font-bold text-[#1F242E]">Newsletter</h3>
 
         <div className="flex flex-row items-center gap-1 mb-6">
@@ -106,7 +96,7 @@ export default function Footer() {
         <button className="bg-[#ED7C2F] rounded-sm px-4 py-2 text-xs font-bold text-white">
           Enviar
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }

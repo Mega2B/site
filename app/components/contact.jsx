@@ -61,7 +61,7 @@ export default function Contact() {
         <div className="flex-1 bg-white m-4">
           <iframe
             className="p-8"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58708.64704940373!2d-46.5588218!3d-23.12305675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cec11f46f1007d%3A0xc885a2d1bf078e37!2sAtibaia%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1750542639480!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117440.15970111618!2d-46.731702999999996!3d-23.09691315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceda1245a3cd57%3A0x506aea31895b681d!2sJarinu%20-%20Aglomera%C3%A7%C3%A3o%20Urbana%20de%20Jundia%C3%AD%2C%20Jarinu%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1760453317254!5m2!1spt-BR!2sbr"
             width="100%"
             height="450"
             style={{ border: "0" }}

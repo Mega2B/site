@@ -14,7 +14,7 @@ import {
 export default function Head() {
   return (
     <section className="flex bg-[#ED7C2F] text-white text-sm text-center justify-center p-2">
-      <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <ul className="flex flex-row justify-center flex-wrap">
           <li className="flex items-center gap-2 mx-4">
             <FontAwesomeIcon icon={faClock} className="w-5 h-5" />
@@ -22,15 +22,19 @@ export default function Head() {
           </li>
           <li className="flex items-center gap-2 mx-4">
             <FontAwesomeIcon icon={faPhone} className="w-5 h-5" />
-            (12) 99999-9999
+            (11) 96372-5837
+          </li>
+          <li className="flex items-center gap-2 mx-4">
+            <FontAwesomeIcon icon={faPhone} className="w-5 h-5" />
+            (11) 97444-1364
           </li>
           <li className="flex items-center gap-2 mx-4">
             <FontAwesomeIcon icon={faMapMarker} className="w-5 h-5" />
-            Rua de Exemplo, nº 123 - Centro - Atibaia/SP
+            Jarinu/SP
           </li>
         </ul>
 
-        <ul className="flex flex-row justify-center">
+        {/* <ul className="flex flex-row justify-center">
           <li className="flex items-center gap-2 mx-2">
             <FontAwesomeIcon icon={faFacebook} className="w-5 h-5" />
           </li>
@@ -43,7 +47,7 @@ export default function Head() {
           <li className="flex items-center gap-2 mx-2">
             <FontAwesomeIcon icon={faGlobe} className="w-5 h-5" />
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   );

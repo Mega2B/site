@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <section className="p-2 pb-12 md:p-20 bg-gray-200 text-center">
+    <section className="p-2 pb-12 md:p-20 text-center">
       <p className="text-[#ED7C2F] font-bold uppercase pb-4">- DEPOIMENTOS -</p>
 
       <h2 className="text-3xl pb-16 font-bold">
@@ -13,7 +13,7 @@ export default function Testimonials() {
 
       <div className="flex flex-col md:flex-row">
         <div
-          className="flex-1 text-left bg-white p-8 m-4"
+          className="flex-1 text-left bg-gray-200 p-8 m-4"
           style={{
             clipPath: "polygon(83% 0, 100% 16%, 100% 100%, 0 100%, 0 0)",
           }}
@@ -78,7 +78,7 @@ export default function Testimonials() {
         </div>
 
         <div
-          className="flex-1 text-left bg-white p-8 m-4"
+          className="flex-1 text-left bg-gray-200 p-8 m-4"
           style={{
             clipPath: "polygon(83% 0, 100% 16%, 100% 100%, 0 100%, 0 0)",
           }}
@@ -143,7 +143,7 @@ export default function Testimonials() {
         </div>
 
         <div
-          className="flex-1 text-left bg-white p-8 m-4"
+          className="flex-1 text-left bg-gray-200 p-8 m-4"
           style={{
             clipPath: "polygon(83% 0, 100% 16%, 100% 100%, 0 100%, 0 0)",
           }}
