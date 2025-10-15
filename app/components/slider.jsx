@@ -12,7 +12,7 @@ export default function Slider() {
             projetos elétricos em sua residência, comércio ou indústria.
           </p>
 
-          <Link className="bg-[#ED7C2F] rounded-full px-6 py-3 text-sm" href="/">Solicite seu Orçamento sem compromisso</Link>
+          <Link className="bg-[#ED7C2F] rounded-full px-6 py-3 text-sm" href="/pages/quotes">Solicite seu Orçamento sem compromisso</Link>
         </div>
         <div className="flex-1"></div>
       </div>

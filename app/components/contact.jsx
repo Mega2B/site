@@ -7,7 +7,7 @@ import {
 
 export default function Contact() {
   return (
-    <section className="p-2 pt-12 pb-12 md:p-20 bg-[#E9E9E9] text-center">
+    <section className="p-2 pt-12 pb-12 md:p-20 bg-[#E9E9E9] text-center" id="contact">
       <div>
         <p className="text-[#ED7C2F] font-bold uppercase pb-4">
           - Entre em Contato -

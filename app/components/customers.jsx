@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Customers() {
   return (
@@ -94,7 +95,9 @@ export default function Customers() {
               </p>
 
               <div className="bg-[#ED7C2F] text-white px-6 py-2 text-sm font-semibold rounded-lg mt-4 inline-block cursor-pointer hover:bg-orange-600 transition">
-                Confira mais projetos
+                <Link href="/pages/projects">
+                  Confira mais projetos
+                </Link>
               </div>
             </div>
           </div>

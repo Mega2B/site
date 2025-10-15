@@ -24,7 +24,7 @@ export default function Credits() {
           </p>
         </div>
         <div className="flex-1 text-xs text-right text-[#717580]">
-          <Link href={"/"}>Política de Privacidade</Link>
+          <Link href={"/pages/privacy"}>Política de Privacidade</Link>
         </div>
       </div>
     </section>

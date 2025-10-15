@@ -1,12 +1,13 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faFacebook,
+//   faInstagram,
+//   faLinkedin,
+//   faTwitter,
+// } from "@fortawesome/free-brands-svg-icons";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -33,10 +34,30 @@ export default function Footer() {
         </div>
 
         <ul className="text-xs text-[#717580]">
-          <li className="mb-2">Sobre Nós</li>
-          <li className="mb-2">Serviços</li>
-          <li className="mb-2">Nossos Clientes</li>
-          <li className="mb-2">Entre em Contato</li>
+          <li className="mb-2">
+            <Link href="/pages/about-us">
+              Sobre Nós
+            </Link>
+          </li>
+
+          <li className="mb-2">
+            <Link href="/pages/services">
+              Serviços
+            </Link>
+          </li>
+
+          <li className="mb-2">
+            <Link href="/pages/customers">
+              Nossos Clientes
+            </Link>
+          </li>
+
+          <li className="mb-2">
+            <Link href="#contact">
+              Entre em Contato
+            </Link>
+          </li>
+
         </ul>
       </div>
 
@@ -49,11 +70,36 @@ export default function Footer() {
         </div>
 
         <ul className="text-xs text-[#717580]">
-          <li className="mb-2">Painéis Elétricos</li>
-          <li className="mb-2">Reinstalação</li>
-          <li className="mb-2">Vistoria</li>
-          <li className="mb-2">Projetos Elétricos</li>
-          <li className="mb-2">Montagem de Painéis</li>
+          <li className="mb-2">
+            <Link href="/pages/services#eletricpanels">
+              Painéis Elétricos
+            </Link>
+          </li>
+
+          <li className="mb-2">
+            <Link href="/pages/services#reinstalation">
+              Reinstalação
+            </Link>
+          </li>
+
+          <li className="mb-2">
+            <Link href="/pages/services#inspection">
+              Vistoria
+            </Link>
+          </li>
+
+          <li className="mb-2">
+            <Link href="/pages/services#eletricprojects">
+              Projetos Elétricos
+            </Link>
+          </li>
+
+          <li className="mb-2">
+            <Link href="/pages/services#panelassembly">
+              Montagem de Painéis
+            </Link>
+          </li>
+
         </ul>
       </div>
 
@@ -68,12 +114,21 @@ export default function Footer() {
         <ul className="text-xs text-[#717580]">
           <li className="mb-2">
             <span className="font-bold">Ligue-nos:</span> <br />
-            (11) 96372-5837 (Marcelo) <br />
-            (11) 97444-1364 (Adriano)
+
+            <Link href="https://wa.me/5511963725837" target="_blank" className="hover:underline">
+              (11) 96372-5837 (Marcelo)
+            </Link>
+
+            <br />
+
+            <Link href="https://wa.me/5511974441364" target="_blank" className="hover:underline">
+              (11) 97444-1364 (Adriano)
+            </Link>
+
           </li>
           <li>
-            <span className="font-bold">Suporte:</span> contato@mega2bengenharia.com.br
-            </li>
+            <span className="font-bold">Suporte:</span> <Link href="mailto:contato@mega2bengenharia.com.br">contato@mega2bengenharia.com.br</Link>
+          </li>
         </ul>
       </div>
 

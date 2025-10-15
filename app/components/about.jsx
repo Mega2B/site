@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faPhone } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -81,7 +82,7 @@ export default function About() {
                   Excelência no Serviço
                 </span>
               </li>
-              
+
             </ul>
           </div>
           <div className="flex-1">
@@ -116,7 +117,11 @@ export default function About() {
         </div>
 
         <div className="bg-[#ED7C2F] text-white px-2 py-4 items-center text-center rounded-lg mt-6">
-          <span>Ou clique aqui para entrar em contato pelo WhatsApp</span>
+          <span>
+            <Link href="https://wa.me/5511963725837" target="_blank" className="font-bold underline">
+              Ou clique aqui para entrar em contato pelo WhatsApp
+            </Link>
+          </span>
         </div>
       </div>
     </section>
