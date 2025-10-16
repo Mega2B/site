@@ -38,7 +38,7 @@ export default function Services() {
         </div>
 
         <div className="flex flex-col items-center flex-[1.5] overflow-hidden relative">
-          <p className="font-bold text-sm mb-4">Cliente Exemplo</p>
+          <p className="font-bold text-sm mb-4">Nome do cliente</p>
 
           <div className="relative">
             <img
@@ -55,15 +55,14 @@ export default function Services() {
                 className="w-10 h-10 text-[#ED7C2F]"
               />
               <p className="w-full text-left">
-                Grande projeto elétrico executado em uma fábrica na cidade de
-                Jarinu - SP. Reestruturação do sistema elétrico.
+                Descrição breve do serviço.
               </p>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center flex-1">
-          <p className="font-bold text-sm mb-4">Cliente Exemplo</p>
+          <p className="font-bold text-sm mb-4">Residência de Alto Padrão</p>
           <img
             src="./services-2.png"
             alt="Nossos Serviços"
@@ -72,7 +71,7 @@ export default function Services() {
         </div>
 
         <div className="flex flex-col items-center flex-1">
-          <p className="font-bold text-sm mb-4">Cliente Exemplo</p>
+          <p className="font-bold text-sm mb-4">Hotel Tauá - Atibaia/SP</p>
           <img
             src="./services-3.png"
             alt="Nossos Serviços"
@@ -81,7 +80,7 @@ export default function Services() {
         </div>
 
         <div className="flex flex-col items-center flex-1">
-          <p className="font-bold text-sm mb-4">Cliente Exemplo</p>
+          <p className="font-bold text-sm mb-4">Stand Hotel Tauá - Atibaia/SP</p>
           <img
             src="./services-4.png"
             alt="Nossos Serviços"
