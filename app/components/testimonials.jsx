@@ -53,10 +53,7 @@ export default function Testimonials() {
 
           <div className="float-left">
             <p className="text-sm mt-12">
-              Aqui vai o depoimento do cliente, falando da qualidade do serviço,
-              atendimento, agilidade, rapidez na solução, entre outros aspectos
-              importantes que enfatizam ainda mais o profissionalismo da Mega 2B
-              Engenharia.
+              "Contratei a Mega 2B Engenharia para a manutenção preventiva em nossa indústria e fiquei satisfeito com a qualidade dos equipamentos e o suporte oferecido. Muito profissionalismo, rapidez e excelência, superando nossas necessidades!"
             </p>
 
             <div className="mt-12 flex items-center gap-4">
@@ -70,8 +67,8 @@ export default function Testimonials() {
                 />
               </div>
               <div>
-                <h3 className="font-bold">Cliente 01</h3>
-                <p className="text-xs">Empresa 01</p>
+                <h3 className="font-bold">Richard Souza</h3>
+                <p className="text-xs">Particular</p>
               </div>
             </div>
           </div>
@@ -118,10 +115,7 @@ export default function Testimonials() {
 
           <div className="float-left">
             <p className="text-sm mt-12">
-              Aqui vai o depoimento do cliente, falando da qualidade do serviço,
-              atendimento, agilidade, rapidez na solução, entre outros aspectos
-              importantes que enfatizam ainda mais o profissionalismo da Mega 2B
-              Engenharia.
+              "A equipe da Mega 2B foi extremamente pontual e eficiente na instalação elétrica do nosso condomínio. A atenção à segurança e a transparência durante o serviço nos trouxeram total confiança. Nosso resultado final superou as expectativas."
             </p>
 
             <div className="mt-12 flex items-center gap-4">
@@ -135,8 +129,8 @@ export default function Testimonials() {
                 />
               </div>
               <div>
-                <h3 className="font-bold">Cliente 01</h3>
-                <p className="text-xs">Empresa 01</p>
+                <h3 className="font-bold">Paula Nobre</h3>
+                <p className="text-xs">Particular</p>
               </div>
             </div>
           </div>
@@ -183,10 +177,7 @@ export default function Testimonials() {
 
           <div className="float-left">
             <p className="text-sm mt-12">
-              Aqui vai o depoimento do cliente, falando da qualidade do serviço,
-              atendimento, agilidade, rapidez na solução, entre outros aspectos
-              importantes que enfatizam ainda mais o profissionalismo da Mega 2B
-              Engenharia.
+              "Fiquei impressionado com o profissionalismo da Mega 2B Engenharia em cada etapa do projeto. Desde o atendimento até a entrega, demonstraram agilidade, clareza e um cuidado excepcional com os detalhes. Recomendo para quem busca soluções eficazes e seguras."
             </p>
 
             <div className="mt-12 flex items-center gap-4">
@@ -200,8 +191,8 @@ export default function Testimonials() {
                 />
               </div>
               <div>
-                <h3 className="font-bold">Cliente 01</h3>
-                <p className="text-xs">Empresa 01</p>
+                <h3 className="font-bold">Marcos Rocha</h3>
+                <p className="text-xs">Particular</p>
               </div>
             </div>
           </div>
