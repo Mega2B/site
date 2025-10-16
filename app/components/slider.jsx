@@ -1,21 +1,28 @@
-import Link from "next/link";
+"use client";
+import '@splidejs/splide/dist/css/splide.min.css';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 export default function Slider() {
-  return (
-    <section className="p-4 md:p-12 bg-[#1F242E]">
-      <div className="flex">
-        <div className="flex-1 p-4 md:p-21 text-white">
-          <p className="text-sm mb-2">Mais Segurança</p>
-          <p className="text-2xl md:text-6xl mb-2 font-bold">Elaboração de Projetos Elétricos</p>
-          <p className="text-sm mb-8">
-            Obtenha mão de obra qualificada para a instalação e manutenção de
-            projetos elétricos em sua residência, comércio ou indústria.
-          </p>
+  const options = {
+    type: 'loop',
+    autoplay: true,
+    interval: 5000,
+    arrows: true,
+    pagination: true,
+    width: '100%',
+    heightRatio: 0.4,
+  };
 
-          <Link className="bg-[#ED7C2F] rounded-full px-6 py-3 text-sm" href="/pages/quotes">Solicite seu Orçamento sem compromisso</Link>
-        </div>
-        <div className="flex-1"></div>
-      </div>
-    </section>
+  return (
+    <div style={{ width: '100vw', marginLeft: '50%', transform: 'translateX(-50%)' }}>
+      <Splide options={options} aria-label="Slider de imagens">
+        <SplideSlide>
+          <img src="/slider1.jpg" alt="Imagem 1" style={{ width: '100%', display: 'block' }} />
+        </SplideSlide>
+        <SplideSlide>
+          <img src="/slider2.jpg" alt="Imagem 2" style={{ width: '100%', display: 'block' }} />
+        </SplideSlide>
+      </Splide>
+    </div>
   );
 }
