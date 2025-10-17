@@ -47,8 +47,8 @@ export default function Footer() {
           </li>
 
           <li className="mb-2">
-            <Link href="/pages/customers">
-              Nossos Clientes
+            <Link href="/pages/projects">
+              Projetos
             </Link>
           </li>
 
