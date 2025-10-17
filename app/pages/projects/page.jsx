@@ -23,11 +23,11 @@ export default function Projects() {
             <Head />
             <Logo />
 
-            <div className="p-25">
-                <p className="pb-25 text-4xl text-center">Projetos</p>
+            <div className="p-12">
+                <p className="pb-16 text-4xl text-center font-bold">Projetos</p>
 
-                <div className="flex p-6 border-1 rounded-lg mb-12">
-                    <div className="flex-1 p-6">
+                <div className="flex p-6 mb-12">
+                    <div className="basis-[30%] p-6">
                         <div>
                             <Splide options={options} aria-label="Mega2B Engenharia">
                                 <SplideSlide>
@@ -52,20 +52,20 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className="flex-1 p-6">
+                    <div className="basis-[70%] p-6">
                         <p className="pb-12">
-                            Projeto 1 — Instalação elétrica para máquinas de ar-condicionado
+                            <span className="font-bold">Instalação elétrica para máquinas de ar-condicionado</span> <br /><br />
 
                             A Mega 2B Engenharia realizou o levantamento de carga e a adequação do quadro elétrico para atender às novas unidades de climatização. Foram criados circuitos dedicados, dimensionados conforme NBR 5410, com proteção DR/disjuntores adequados e reforço do sistema de aterramento. A infraestrutura (eletrocalhas, eletrodutos e pontos de tomada técnica) foi executada para facilitar manutenção e futuras ampliações.
-                            O resultado foi um sistema seguro, eficiente e pronto para operação contínua.
+                            O resultado foi um sistema seguro, eficiente e pronto para operação contínua. <br /><br />
 
-                            Destaques Mega 2B: dimensionamento preciso, execução limpa, comissionamento assistido e entrega técnica documentada.
+                            <span className="font-bold">Destaques Mega 2B:</span> dimensionamento preciso, execução limpa, comissionamento assistido e entrega técnica documentada.
                         </p>
                     </div>
                 </div>
 
-                <div className="flex p-6 border-1 rounded-lg mb-12">
-                    <div className="flex-1 p-6">
+                <div className="flex p-6 mb-12">
+                    <div className="basis-[30%] p-6">
                         <div>
                             <Splide options={options} aria-label="Mega2B Engenharia">
                                 <SplideSlide>
@@ -123,23 +123,23 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className="flex-1 p-6">
+                    <div className="basis-[70%] p-6">
                         <p className="pb-12">
-                            Projeto 2 — Reforma de iluminação no melhor resort da região
+                            <span className="font-bold">Reforma de iluminação no melhor resort da região</span> <br /><br />
 
-                            Iluminação de stand no Hotel Tauá: solução cenográfica com trilhos eletrificados e projetores dimerizáveis, permitindo foco em produtos e rápida reconfiguração do layout. Foi adotado alto IRC para fidelidade de cores e controle de ofuscamento para conforto visual dos visitantes.
+                            Iluminação de stand no Hotel Tauá: solução cenográfica com trilhos eletrificados e projetores dimerizáveis, permitindo foco em produtos e rápida reconfiguração do layout. Foi adotado alto IRC para fidelidade de cores e controle de ofuscamento para conforto visual dos visitantes. <br /><br />
 
-                            Iluminação de LED em camarim – Hotel Tauá: projeto voltado ao bem-estar e à preparação de equipe/artistas, combinando luz frontal difusa (sem sombras marcadas) e temperatura de cor adequada. Drivers com baixa flutuação garantem estabilidade para maquiagem e fotos.
+                            Iluminação de LED em camarim – Hotel Tauá: projeto voltado ao bem-estar e à preparação de equipe/artistas, combinando luz frontal difusa (sem sombras marcadas) e temperatura de cor adequada. Drivers com baixa flutuação garantem estabilidade para maquiagem e fotos. <br /><br />
 
-                            Reforma em um dos prédios do complexo – Hotel Tauá: substituição de luminárias obsoletas, reorganização de circuitos e implantação de sistema de dimerização por áreas, reduzindo consumo e simplificando a operação. Adequações elétricas e proteções foram atualizadas conforme norma, com testes noturnos para validar níveis e uniformidade.
+                            Reforma em um dos prédios do complexo – Hotel Tauá: substituição de luminárias obsoletas, reorganização de circuitos e implantação de sistema de dimerização por áreas, reduzindo consumo e simplificando a operação. Adequações elétricas e proteções foram atualizadas conforme norma, com testes noturnos para validar níveis e uniformidade. <br /><br />
 
-                            Destaques Mega 2B: planejamento de obra em ambiente vivo (sem parar o resort), segurança e NR-10/NR-35, curadoria luminotécnica e economia de energia com payback mensurável.
+                            <span className="font-bold">Destaques Mega 2B:</span> planejamento de obra em ambiente vivo (sem parar o resort), segurança e NR-10/NR-35, curadoria luminotécnica e economia de energia com payback mensurável.
                         </p>
                     </div>
                 </div>
 
-                <div className="flex p-6 border-1 rounded-lg mb-12">
-                    <div className="flex-1 p-6">
+                <div className="flex p-6 mb-12">
+                    <div className="basis-[30%] p-6">
                         <div>
                             <Splide options={options} aria-label="Mega2B Engenharia">
                                 <SplideSlide>
@@ -182,13 +182,13 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className="flex-1 p-6">
+                    <div className="basis-[70%] p-6">
                         <p className="pb-12">
-                            Projeto 3 — Iluminação em residências de alto padrão
+                            <span className="font-bold">Iluminação em residências de alto padrão</span><br /><br />
 
-                            A Mega 2B Engenharia executou o projeto e a instalação da iluminação com foco em conforto, estética e controle. A solução combina camadas de luz (geral, tarefa e efeito), perfis de LED embutidos em sancas e nichos, além de pontos de destaque para obras de arte. Toda a infraestrutura foi pensada para integração com o sistema de automação escolhido pelo cliente, permitindo cenas personalizadas e dimerização suave.
+                            A Mega 2B Engenharia executou o projeto e a instalação da iluminação com foco em conforto, estética e controle. A solução combina camadas de luz (geral, tarefa e efeito), perfis de LED embutidos em sancas e nichos, além de pontos de destaque para obras de arte. Toda a infraestrutura foi pensada para integração com o sistema de automação escolhido pelo cliente, permitindo cenas personalizadas e dimerização suave.<br /><br />
 
-                            Destaques Mega 2B: acabamento impecável, integração com automação residencial, luminárias de alto IRC e manual do proprietário com mapas de circuitos para manutenção fácil.
+                            <span className="font-bold">Destaques Mega 2B:</span> acabamento impecável, integração com automação residencial, luminárias de alto IRC e manual do proprietário com mapas de circuitos para manutenção fácil.
                         </p>
                     </div>
                 </div>
