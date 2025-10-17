@@ -46,8 +46,8 @@ export default function Logo() {
           </li>
 
           <li>
-            <Link href="/pages/customers">
-              Clientes
+            <Link href="/pages/projects">
+              Projetos
             </Link>
           </li>
 
