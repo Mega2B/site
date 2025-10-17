@@ -59,7 +59,7 @@ export default function Logo() {
         </ul>
 
         <div className="hidden md:flex flex-row justify-center items-center gap-4">
-          <FontAwesomeIcon icon={faMagnifyingGlass} className="w-6 h-6" />
+          {/* <FontAwesomeIcon icon={faMagnifyingGlass} className="w-6 h-6" /> */}
           <button className="rounded-full bg-[#ED7C2F] text-white px-4 py-2">
             <Link href="/pages/quotes">
               Solicite seu orçamento
@@ -81,12 +81,31 @@ export default function Logo() {
       >
         <div className="flex flex-col items-center pt-24 gap-6 text-base pb-10">
           <ul className="flex flex-col items-center gap-4">
-            <li onClick={closeMenu}>Home</li>
-            <li onClick={closeMenu}>Sobre Nós</li>
-            <li onClick={closeMenu}>Serviços</li>
-            <li onClick={closeMenu}>Clientes</li>
-            <li onClick={closeMenu}>Equipe</li>
-            <li onClick={closeMenu}>Contato</li>
+            <li onClick={closeMenu}>
+              <Link href="/">
+                Home
+              </Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link href="/pages/about-us">
+                Sobre Nós
+              </Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link href="/pages/services">
+                Serviços
+              </Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link href="/pages/projects">
+                Projetos
+              </Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link href="#contact">
+                Contato
+              </Link>
+            </li>
           </ul>
           <FontAwesomeIcon icon={faMagnifyingGlass} className="w-6 h-6" />
           <button
