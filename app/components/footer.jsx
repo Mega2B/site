@@ -10,10 +10,10 @@ export default function Footer() {
           alt="Logo"
           width={300}
           height={300}
-          className="mb-4"  
+          className="mb-4"
         />
         <p className="text-xs mb-6 text-[#717580]">
-          Entregando qualidade e garantia na prestação de serviços elétricos.
+          Entregando qualidade e garantia na prestação de serviços elétricos!
         </p>
       </div>
 
