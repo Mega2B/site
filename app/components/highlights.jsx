@@ -38,8 +38,8 @@ export default function Highlights() {
             alt={card.alt}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
-          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap text-white text-base font-medium">
+          <div className="absolute inset-0 transition-colors duration-300 bg-black/60 hover:bg-black/90"></div>
+          <div className="absolute left-1/2 bottom-3 -translate-x-1/2 w-[90%] text-white text-base font-medium text-center px-2 pointer-events-none">
             {card.text}
           </div>
         </div>
