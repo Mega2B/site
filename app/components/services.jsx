@@ -6,7 +6,7 @@ import {
 
 export default function Services() {
   return (
-    <section className="p-2 pt-12 pb-12md:p-20 bg-white">
+    <section className="p-2 pt-12 pb-12 md:p-20 bg-white">
       <div className="flex flex-col md:flex-row">
         <div className="flex-1">
           <p className="text-[#ED7C2F] font-bold uppercase pb-4">
@@ -38,7 +38,7 @@ export default function Services() {
         </div>
 
         <div className="flex flex-col items-center flex-[1.5] overflow-hidden relative">
-          <p className="font-bold text-sm mb-4">Nome do cliente</p>
+          <p className="font-bold text-sm mb-4">Hotel Tauá - Atibaia/SP</p>
 
           <div className="relative">
             <img
@@ -55,7 +55,7 @@ export default function Services() {
                 className="w-10 h-10 text-[#ED7C2F]"
               />
               <p className="w-full text-left">
-                Descrição breve do serviço.
+                Instalação de iluminação cênica e arquitetônica com tecnologia LED
               </p>
             </div>
           </div>
