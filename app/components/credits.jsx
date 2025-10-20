@@ -14,8 +14,8 @@ export default function Credits() {
           <p className="text-xs text-[#717580]">
             Copyright 2025 por{" "}
             <Link
-              className="text-[#ED7C2F] font-bold underline "
-              href="https://google.com.br"
+              className="text-[#ED7C2F] font-bold hover:text-[#0A5DA6] transition-colors duration-300 ease-in-out"
+              href="https://agenciaduetto.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -23,7 +23,7 @@ export default function Credits() {
             </Link>
           </p>
         </div>
-        <div className="flex-1 text-xs text-right text-[#717580]">
+        <div className="flex-1 text-xs text-right text-[#717580] hover:text-[#0A5DA6] transition-colors duration-300 ease-in-out">
           <Link href={"/pages/privacy"}>Política de Privacidade</Link>
         </div>
       </div>

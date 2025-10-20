@@ -10,8 +10,8 @@ export default function About() {
             <Head />
             <Logo />
 
-            <div className="p-12">
-                <p className="pb-8 text-4xl text-center font-bold">Sobre Nós</p>
+            <div className="p-25">
+                <p className="pb-12 text-4xl text-center font-bold">Sobre Nós</p>
 
                 <p className="pb-4">
                     A <span className="font-bold">Mega 2B Engenharia</span> nasceu à partir da experiência de dois sócios, os quais ao exerceram suas atividades profissionais perceberam que seus clientes necessitavam de fornecedores adequados e capacitados para a realização de serviços em indústrias, condomínios, hotéis e escritórios.

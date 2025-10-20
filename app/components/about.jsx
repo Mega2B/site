@@ -20,9 +20,7 @@ export default function About() {
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
 
-        <div className="absolute inset-0 flex items-center justify-center text-white text-base font-medium">
-          {/* Organização em todo projeto */}
-        </div>
+        <div className="absolute inset-0 flex items-center justify-center text-white text-base font-medium"></div>
       </div>
 
       <div className="flex-1 p-2 pt-12">
