@@ -94,7 +94,7 @@ export default function Customers() {
                 graças à qualidade e experiência de nossos profissionais.
               </p>
 
-              <div className="bg-[#ED7C2F] text-white px-6 py-2 text-sm font-semibold rounded-lg mt-4 inline-block cursor-pointer hover:bg-orange-600 transition">
+              <div className="bg-[#ED7C2F] text-white px-6 py-2 text-sm font-semibold rounded-lg mt-4 inline-block cursor-pointer hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold">
                 <Link href="/pages/projects">
                   Confira mais projetos
                 </Link>
