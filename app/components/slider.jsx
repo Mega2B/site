@@ -14,7 +14,7 @@ export default function Slider() {
   };
 
   return (
-    <div style={{ width: '100vw', marginLeft: '50%', transform: 'translateX(-50%)' }}>
+    <div style={{ width: '100%', margin: '0 auto' }}>
       <Splide options={options} aria-label="Slider de imagens">
         <SplideSlide>
           <img src="/slider1.jpg" alt="Imagem 1" style={{ width: '100%', display: 'block' }} />
