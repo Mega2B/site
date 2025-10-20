@@ -124,26 +124,6 @@ export default function Footer() {
         </ul>
       </div>
 
-      {/* <div className="flex-1 pt-8 md:pt-0">
-        <h3 className="font-bold text-[#1F242E]">Newsletter</h3>
-
-        <div className="flex flex-row items-center gap-1 mb-6">
-          <hr className="border-[#ED7C2F] border w-2" />
-          <hr className="border-[#ED7C2F] border w-10" />
-        </div>
-
-        <h2 className="text-xs mb-2 text-[#717580]">
-          Receba as novidades de nossa empresa mensalmente:
-        </h2>
-        <input
-          type="text"
-          className="border border-[#E4E4E4] rounded-sm px-4 py-2 text-xs mb-2 mt-2"
-          placeholder="Seu melhor e-mail"
-        />
-        <button className="bg-[#ED7C2F] rounded-sm px-4 py-2 text-xs font-bold text-white">
-          Enviar
-        </button>
-      </div> */}
     </section>
   );
 }
