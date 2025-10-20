@@ -26,33 +26,33 @@ export default function Logo() {
           </button>
         </div>
 
-        <ul className="hidden md:flex flex-row justify-around items-center flex-1 text-base md:text-sm">
+        <ul className="hidden md:flex flex-row justify-around items-center flex-1 text-base md:text-sm font-bold">
           <li>
-            <Link href="/">
+            <Link href="/" className="hover:text-[#0A5DA6] transition-colors duration-300 ease-in-out">
               Home
             </Link>
           </li>
 
           <li>
-            <Link href="/pages/about-us">
+            <Link href="/pages/about-us" className="hover:text-[#0A5DA6] transition-colors duration-300 ease-in-out">
               Sobre Nós
             </Link>
           </li>
 
           <li>
-            <Link href="/pages/services">
+            <Link href="/pages/services" className="hover:text-[#0A5DA6] transition-colors duration-300 ease-in-out">
               Serviços
             </Link>
           </li>
 
           <li>
-            <Link href="/pages/projects">
+            <Link href="/pages/projects" className="hover:text-[#0A5DA6] transition-colors duration-300 ease-in-out">
               Projetos
             </Link>
           </li>
 
           <li>
-            <Link href="#contact">
+            <Link href="#contact" className="hover:text-[#0A5DA6] transition-colors duration-300 ease-in-out">
               Contato
             </Link>
           </li>
@@ -60,7 +60,7 @@ export default function Logo() {
 
         <div className="hidden md:flex flex-row justify-center items-center gap-4">
           {/* <FontAwesomeIcon icon={faMagnifyingGlass} className="w-6 h-6" /> */}
-          <button className="rounded-full bg-[#ED7C2F] text-white px-4 py-2">
+          <button className="rounded-full bg-[#ED7C2F] text-white text-sm px-4 py-2 hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold">
             <Link href="/pages/quotes">
               Solicite seu orçamento
             </Link>
