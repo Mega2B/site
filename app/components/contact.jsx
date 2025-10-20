@@ -51,7 +51,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="bg-[#ED7C2F] text-white p-2 rounded hover:bg-[#d66a28] transition-colors"
+              className="bg-[#ED7C2F] text-white p-2 rounded hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold"
             >
               Enviar
             </button>
