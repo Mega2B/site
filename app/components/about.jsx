@@ -116,9 +116,9 @@ export default function About() {
           </div>
         </div>
 
-        <div className="bg-[#ED7C2F] text-white px-2 py-4 items-center text-center rounded-lg mt-6">
+        <div className="bg-[#ED7C2F] text-white px-2 py-4 items-center text-center rounded-lg mt-6 hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold">
           <span>
-            <Link href="https://wa.me/5511963725837" target="_blank" className="font-bold underline">
+            <Link href="https://wa.me/5511963725837" target="_blank">
               Ou clique aqui para entrar em contato pelo WhatsApp
             </Link>
           </span>
