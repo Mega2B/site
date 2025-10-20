@@ -13,7 +13,7 @@ export default function Testimonials() {
 
       <div className="flex flex-col md:flex-row">
         <div
-          className="flex-1 text-left bg-gray-200 p-8 m-4"
+          className="flex-1 text-left bg-gray-200 p-8 m-4 hover:bg-[#0A5DA6] hover:text-white transition-colors duration-300"
           style={{
             clipPath: "polygon(83% 0, 100% 16%, 100% 100%, 0 100%, 0 0)",
           }}
@@ -47,7 +47,7 @@ export default function Testimonials() {
           <div className="float-right">
             <FontAwesomeIcon
               icon={faQuoteLeft}
-              className="w-16 h-16 text-[#717580] opacity-20 m-0 p-0 block"
+              className="w-16 h-16 opacity-20 m-0 p-0 block"
             />
           </div>
 
@@ -75,7 +75,7 @@ export default function Testimonials() {
         </div>
 
         <div
-          className="flex-1 text-left bg-gray-200 p-8 m-4"
+          className="flex-1 text-left bg-gray-200 p-8 m-4 hover:bg-[#0A5DA6] hover:text-white transition-colors duration-300"
           style={{
             clipPath: "polygon(83% 0, 100% 16%, 100% 100%, 0 100%, 0 0)",
           }}
@@ -109,7 +109,7 @@ export default function Testimonials() {
           <div className="float-right">
             <FontAwesomeIcon
               icon={faQuoteLeft}
-              className="w-16 h-16 text-[#717580] opacity-20 m-0 p-0 block"
+              className="w-16 h-16 opacity-20 m-0 p-0 block"
             />
           </div>
 
@@ -137,7 +137,7 @@ export default function Testimonials() {
         </div>
 
         <div
-          className="flex-1 text-left bg-gray-200 p-8 m-4"
+          className="flex-1 text-left bg-gray-200 p-8 m-4 hover:bg-[#0A5DA6] hover:text-white transition-colors duration-300"
           style={{
             clipPath: "polygon(83% 0, 100% 16%, 100% 100%, 0 100%, 0 0)",
           }}
@@ -171,7 +171,7 @@ export default function Testimonials() {
           <div className="float-right">
             <FontAwesomeIcon
               icon={faQuoteLeft}
-              className="w-16 h-16 text-[#717580] opacity-20 m-0 p-0 block"
+              className="w-16 h-16 opacity-20 m-0 p-0 block"
             />
           </div>
 
