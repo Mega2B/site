@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="flex-1 pr-10">
         <Image
           src="/logo.png"
-          alt="Logo"
+          alt="Mega2B Engenharia"
           width={300}
           height={300}
           className="mb-4"
