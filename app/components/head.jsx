@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function Head() {
   return (
-    <section className="flex bg-[#ED7C2F] text-white text-sm text-center justify-center p-2">
+    <section className="flex bg-[#ED7C2F] text-white text-sm text-center justify-center p-2 font-bold">
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <ul className="flex flex-row justify-center flex-wrap">
           <li className="flex items-center gap-2 mx-4">
@@ -22,14 +22,14 @@ export default function Head() {
             Seg - Sex (9h - 18h)
           </li>
           <li className="flex items-center gap-2 mx-4">
-            <Link href="https://wa.me/5511963725837" target="_blank" className="hover:underline">
+            <Link href="https://wa.me/5511963725837" target="_blank" className="hover:transition-colors hover:duration-300 hover:ease-in-out hover:text-[#000000]">
               <FontAwesomeIcon icon={faPhone} className="w-5 h-5" />
               (11) 96372-5837
             </Link>
 
           </li>
           <li className="flex items-center gap-2 mx-4">
-            <Link href="https://wa.me/5511974441364" target="_blank" className="hover:underline">
+            <Link href="https://wa.me/5511974441364" target="_blank" className="hover:transition-colors hover:duration-300 hover:ease-in-out hover:text-[#000000]">
               <FontAwesomeIcon icon={faPhone} className="w-5 h-5" />
               (11) 97444-1364
             </Link>
