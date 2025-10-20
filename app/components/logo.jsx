@@ -59,9 +59,8 @@ export default function Logo() {
         </ul>
 
         <div className="hidden md:flex flex-row justify-center items-center gap-4">
-          {/* <FontAwesomeIcon icon={faMagnifyingGlass} className="w-6 h-6" /> */}
           <button className="rounded-full bg-[#ED7C2F] text-white text-sm px-4 py-2 hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold">
-            <Link href="/pages/quotes">
+            <Link href="https://wa.me/5511963725837" target="_blank">
               Solicite seu orçamento
             </Link>
           </button>

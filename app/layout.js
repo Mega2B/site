@@ -1,5 +1,6 @@
 import { Rubik } from "next/font/google";
 import "./globals.css";
+import WhatsAppFloatingButton from "./components/whatsapp";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         className={`${rubik.variable} antialiased`}
       >
         {children}
+        <WhatsAppFloatingButton />
       </body>
     </html>
   );

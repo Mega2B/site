@@ -6,6 +6,7 @@ import Logo from "../../components/logo";
 import Contact from "../../components/contact";
 import Footer from "../../components/footer";
 import Credits from "../../components/credits";
+import Link from "next/link";
 
 export default function Projects() {
     const options = {
@@ -15,7 +16,7 @@ export default function Projects() {
         arrows: true,
         pagination: true,
         width: '100%',
-        height: 'auto',
+        height: '400px',
     };
 
     return (
@@ -23,10 +24,10 @@ export default function Projects() {
             <Head />
             <Logo />
 
-            <div className="p-12">
-                <p className="pb-16 text-4xl text-center font-bold">Projetos</p>
+            <div className="p-2 md:p-25">
+                <p className="pb-12 text-4xl text-center font-bold">Projetos</p>
 
-                <div className="flex p-6 mb-12">
+                <div className="flex flex-col md:flex-row text-center md:text-left p-6 border-1 border-gray-200 rounded-lg shadow-lg mb-12">
                     <div className="basis-[30%] p-6">
                         <div>
                             <Splide options={options} aria-label="Mega2B Engenharia">
@@ -61,10 +62,18 @@ export default function Projects() {
 
                             <span className="font-bold">Destaques Mega 2B:</span> dimensionamento preciso, execução limpa, comissionamento assistido e entrega técnica documentada.
                         </p>
+
+                        <div className="bg-[#ED7C2F] text-white px-2 py-4 md:w-[300px] items-center text-center rounded-lg mt-6 hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold">
+                            <span>
+                                <Link href="https://wa.me/5511963725837" target="_blank">
+                                    Solicite um orçamento conosco
+                                </Link>
+                            </span>
+                        </div>
                     </div>
                 </div>
 
-                <div className="flex p-6 mb-12">
+                <div className="flex flex-col md:flex-row text-center md:text-left p-6 border-1 border-gray-200 rounded-lg shadow-lg mb-12">
                     <div className="basis-[30%] p-6">
                         <div>
                             <Splide options={options} aria-label="Mega2B Engenharia">
@@ -135,10 +144,18 @@ export default function Projects() {
 
                             <span className="font-bold">Destaques Mega 2B:</span> planejamento de obra em ambiente vivo (sem parar o resort), segurança e NR-10/NR-35, curadoria luminotécnica e economia de energia com payback mensurável.
                         </p>
+
+                        <div className="bg-[#ED7C2F] text-white px-2 py-4 md:w-[300px] items-center text-center rounded-lg mt-6 hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold">
+                            <span>
+                                <Link href="https://wa.me/5511963725837" target="_blank">
+                                    Solicite um orçamento conosco
+                                </Link>
+                            </span>
+                        </div>
                     </div>
                 </div>
 
-                <div className="flex p-6 mb-12">
+                <div className="flex flex-col md:flex-row text-center md:text-left p-6 border-1 border-gray-200 rounded-lg shadow-lg mb-12">
                     <div className="basis-[30%] p-6">
                         <div>
                             <Splide options={options} aria-label="Mega2B Engenharia">
@@ -190,6 +207,14 @@ export default function Projects() {
 
                             <span className="font-bold">Destaques Mega 2B:</span> acabamento impecável, integração com automação residencial, luminárias de alto IRC e manual do proprietário com mapas de circuitos para manutenção fácil.
                         </p>
+
+                        <div className="bg-[#ED7C2F] text-white px-2 py-4 md:w-[300px] items-center text-center rounded-lg mt-6 hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold">
+                            <span>
+                                <Link href="https://wa.me/5511963725837" target="_blank">
+                                    Solicite um orçamento conosco
+                                </Link>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
