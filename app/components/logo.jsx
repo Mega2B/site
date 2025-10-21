@@ -106,7 +106,6 @@ export default function Logo() {
               </Link>
             </li>
           </ul>
-          <FontAwesomeIcon icon={faMagnifyingGlass} className="w-6 h-6" />
           <button
             onClick={closeMenu}
             className="rounded-full bg-[#ED7C2F] text-white px-4 py-2"
