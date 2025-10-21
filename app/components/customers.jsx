@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Customers() {
   return (
-    <section className="p-2 md:p-20 bg-[#E9E9E9] text-left">
+    <section className="p-8 md:p-20 bg-[#E9E9E9] text-left">
       <div className="flex flex-col md:flex-row p-2">
         <div className="flex-1">
           <p className="text-[#ED7C2F] font-bold uppercase pb-4">

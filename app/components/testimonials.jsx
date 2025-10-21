@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <section className="p-2 pb-12 md:p-20 text-center">
+    <section className="p-8 pb-12 md:p-20 text-center">
       <p className="text-[#ED7C2F] font-bold uppercase pb-4">- DEPOIMENTOS -</p>
 
       <h2 className="text-3xl pb-16 font-bold">

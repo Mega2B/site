@@ -6,7 +6,7 @@ import {
 
 export default function Services() {
   return (
-    <section className="p-2 pt-12 pb-12 md:p-20 bg-white">
+    <section className="p-8 pt-12 pb-12 md:p-20 bg-white">
       <div className="flex flex-col md:flex-row">
         <div className="flex-1">
           <p className="text-[#ED7C2F] font-bold uppercase pb-4">
