@@ -1,3 +1,6 @@
+"use client"
+import { useState } from "react";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
@@ -6,6 +9,48 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "ContentType": "application/json" },
+        body: JSON.stringify({
+          access_key: "2ihx8msh5lw3bg",
+          ...formData
+        }),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        alert("Message sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        alert("Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      alert("An error occurred. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
   return (
     <section className="p-2 pt-12 pb-12 md:p-20 bg-[#E9E9E9] text-center" id="contact">
       <div>
@@ -19,41 +64,54 @@ export default function Contact() {
       <div className="flex flex-col md:flex-row">
         <div className="flex-1 bg-white text-left p-8 m-4">
           <h2 className="font-bold">Preencha o formulário abaixo</h2>
-          <form className="flex flex-col mt-4">
-            <label className="flex items-center gap-2 text-sm m-0 p-0">
+          <form onSubmit={handleSubmit} className="flex flex-col mt-4">
+            <label htmlFor="name" className="flex items-center gap-2 text-sm m-0 p-0">
               <FontAwesomeIcon icon={faUser} className="w-3 h-3" />
               Seu nome
             </label>
             <input
               type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
               placeholder="Nome"
               className="p-2 mb-4 text-sm border border-gray-300 rounded"
             />
 
-            <label className="flex items-center gap-2 text-sm m-0 p-0">
+            <label htmlFor="email" className="flex items-center gap-2 text-sm m-0 p-0">
               <FontAwesomeIcon icon={faEnvelope} className="w-3 h-3" />
               Seu melhor e-mail
             </label>
             <input
               type="email"
-              placeholder="Email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              placeholder="Seu melhor E-mail"
               className="p-2 mb-4 text-sm border border-gray-300 rounded"
             />
 
-            <label className="flex items-center gap-2 text-sm m-0 p-0">
+            <label htmlFor="message" className="flex items-center gap-2 text-sm m-0 p-0">
               <FontAwesomeIcon icon={faMessage} className="w-3 h-3" />
               Sua mensagem
             </label>
             <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
               placeholder="Mensagem"
               className="p-2 mb-4 text-sm border border-gray-300 rounded h-32"
             ></textarea>
 
             <button
               type="submit"
+              disabled={isSubmitting}
               className="bg-[#ED7C2F] text-white p-2 rounded hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold"
             >
-              Enviar
+              {isSubmitting ? "Enviando..." : "Enviar"}
             </button>
           </form>
         </div>

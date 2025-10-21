@@ -39,21 +39,6 @@ export default function Head() {
             Jarinu/SP
           </li>
         </ul>
-
-        {/* <ul className="flex flex-row justify-center">
-          <li className="flex items-center gap-2 mx-2">
-            <FontAwesomeIcon icon={faFacebook} className="w-5 h-5" />
-          </li>
-          <li className="flex items-center gap-2 mx-2">
-            <FontAwesomeIcon icon={faInstagram} className="w-5 h-5" />
-          </li>
-          <li className="flex items-center gap-2 mx-2">
-            <FontAwesomeIcon icon={faTwitter} className="w-5 h-5" />
-          </li>
-          <li className="flex items-center gap-2 mx-2">
-            <FontAwesomeIcon icon={faGlobe} className="w-5 h-5" />
-          </li>
-        </ul> */}
       </div>
     </section>
   );
