@@ -1,6 +1,7 @@
 import { Rubik } from "next/font/google";
 import "./globals.css";
 import WhatsAppFloatingButton from "./components/whatsapp";
+import GoogleAnalytics from "./components/google";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -15,6 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
+      <GoogleAnalytics />
       <body
         className={`${rubik.variable} antialiased`}
       >
