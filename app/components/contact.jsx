@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react";
+import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -9,46 +9,31 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [result, setResult] = React.useState("");
 
-  const handleSubmit = async (event) => {
+  const onSubmit = async (event) => {
     event.preventDefault();
-    setIsSubmitting(true);
+    setResult("Sending....");
+    const formData = new FormData(event.target);
 
-    try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { "ContentType": "application/json" },
-        body: JSON.stringify({
-          access_key: "ef1c6f72-7207-42e1-9b10-3b91f19bf066",
-          ...formData
-        }),
-      });
+    formData.append("access_key", "ef1c6f72-7207-42e1-9b10-3b91f19bf066");
 
-      const result = await response.json();
-      if (result.success) {
-        alert("Message sent successfully!");
-        setFormData({ name: "", email: "", message: "" });
-      } else {
-        alert("Failed to send message. Please try again.");
-      }
-    } catch (error) {
-      alert("An error occurred. Please try again.");
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
     });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      alert("Erro ao enviar a mensagem. Código de erro: " + data);
+      setResult(data.message);
+    }
   };
 
   return (
@@ -64,7 +49,7 @@ export default function Contact() {
       <div className="flex flex-col md:flex-row">
         <div className="flex-1 bg-white text-left p-8 m-4">
           <h2 className="font-bold">Preencha o formulário abaixo</h2>
-          <form onSubmit={handleSubmit} className="flex flex-col mt-4">
+          <form onSubmit={onSubmit} className="flex flex-col mt-4">
             <label htmlFor="name" className="flex items-center gap-2 text-sm m-0 p-0">
               <FontAwesomeIcon icon={faUser} className="w-3 h-3" />
               Seu nome
@@ -72,8 +57,6 @@ export default function Contact() {
             <input
               type="text"
               name="name"
-              value={formData.name}
-              onChange={handleChange}
               required
               placeholder="Nome"
               className="p-2 mb-4 text-sm border border-gray-300 rounded"
@@ -86,8 +69,6 @@ export default function Contact() {
             <input
               type="email"
               name="email"
-              value={formData.email}
-              onChange={handleChange}
               required
               placeholder="Seu melhor E-mail"
               className="p-2 mb-4 text-sm border border-gray-300 rounded"
@@ -99,8 +80,6 @@ export default function Contact() {
             </label>
             <textarea
               name="message"
-              value={formData.message}
-              onChange={handleChange}
               required
               placeholder="Mensagem"
               className="p-2 mb-4 text-sm border border-gray-300 rounded h-32"
@@ -108,10 +87,9 @@ export default function Contact() {
 
             <button
               type="submit"
-              disabled={isSubmitting}
               className="bg-[#ED7C2F] text-white p-2 rounded hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold"
             >
-              {isSubmitting ? "Enviando..." : "Enviar"}
+              Enviar
             </button>
           </form>
         </div>
