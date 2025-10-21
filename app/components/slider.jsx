@@ -39,10 +39,10 @@ export default function Slider() {
       <div className="block md:hidden" style={{ width: '100%', margin: '0 auto' }}>
         <Splide options={options_sm} aria-label="Slider de imagens">
           <SplideSlide>
-            <img src="/SM01.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
+            <img src="/SM01.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block', objectFit: 'cover' }} className='w-full h-full object-cover' />
           </SplideSlide>
           <SplideSlide>
-            <img src="/SM02.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
+            <img src="/SM02.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block', objectFit: 'cover' }} className='w-full h-full object-cover' />
           </SplideSlide>
         </Splide>
       </div>
