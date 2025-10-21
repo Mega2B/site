@@ -25,7 +25,7 @@ export default function Contact() {
         method: "POST",
         headers: { "ContentType": "application/json" },
         body: JSON.stringify({
-          access_key: "2ihx8msh5lw3bg",
+          access_key: "ef1c6f72-7207-42e1-9b10-3b91f19bf066",
           ...formData
         }),
       });
