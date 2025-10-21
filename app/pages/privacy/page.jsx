@@ -10,7 +10,7 @@ export default function Privacy() {
             <Head />
             <Logo />
 
-            <div className="p-25">
+            <div className="p-6 md:p-25 text-center md:text-left">
                 <p className="text-4xl text-center font-bold pb-12">Política de Privacidade</p> <br />
                 <p>
                     <span className="font-bold">Privacidade e Cookies</span> <br />
