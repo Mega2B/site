@@ -10,7 +10,7 @@ export default function About() {
             <Head />
             <Logo />
 
-            <div className="p-25">
+            <div className="p-8 text-center md:p-25 md:text-left">
                 <p className="pb-12 text-4xl text-center font-bold">Sobre Nós</p>
 
                 <p className="pb-4">

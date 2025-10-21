@@ -13,7 +13,7 @@ export default function About() {
         }}
       >
         <img
-          src="./about-1.png"
+          src="/about-1.png"
           alt="Organização elétrica"
           className="w-full h-full object-cover"
         />
@@ -92,7 +92,7 @@ export default function About() {
               }}
             >
               <img
-                src="./about-2.png"
+                src="/about-2.png"
                 alt="Sobre Nós"
                 className="w-full h-full object-cover"
               />
