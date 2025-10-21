@@ -19,7 +19,7 @@ export default function Head() {
         <ul className="flex flex-row justify-center flex-wrap">
           <li className="flex items-center gap-2 mx-4">
             <FontAwesomeIcon icon={faClock} className="w-5 h-5" />
-            Seg - Sex (9h - 18h)
+            Segunda à Sábado (7h - 18h)
           </li>
           <li className="flex items-center gap-2 mx-4">
             <Link href="https://wa.me/5511963725837" target="_blank" className="hover:transition-colors hover:duration-300 hover:ease-in-out hover:text-[#000000]">
