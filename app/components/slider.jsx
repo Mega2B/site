@@ -10,7 +10,7 @@ export default function Slider() {
     arrows: true,
     pagination: true,
     width: '100%',
-    heightRatio: 0.4,
+    heightRatio: 0.31,
   };
 
   const options_sm = {
@@ -20,7 +20,7 @@ export default function Slider() {
     arrows: true,
     pagination: true,
     width: '400px',
-    height: '500px',
+    height: '530px',
   };
 
   return (
@@ -28,10 +28,10 @@ export default function Slider() {
       <div className="hidden md:block" style={{ width: '100%', margin: '0 auto' }}>
         <Splide options={options} aria-label="Slider de imagens">
           <SplideSlide>
-            <img src="/slider1.jpg" alt="Imagem 1" style={{ width: '100%', display: 'block' }} />
+            <img src="/slider1.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
           </SplideSlide>
           <SplideSlide>
-            <img src="/slider2.jpg" alt="Imagem 2" style={{ width: '100%', display: 'block' }} />
+            <img src="/slider2.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
           </SplideSlide>
         </Splide>
       </div>
@@ -39,10 +39,10 @@ export default function Slider() {
       <div className="block md:hidden" style={{ width: '100%', margin: '0 auto' }}>
         <Splide options={options_sm} aria-label="Slider de imagens">
           <SplideSlide>
-            <img src="/SM01.png" alt="Imagem 1" style={{ width: '100%', display: 'block' }} />
+            <img src="/SM01.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
           </SplideSlide>
           <SplideSlide>
-            <img src="/SM02.png" alt="Imagem 2" style={{ width: '100%', display: 'block' }} />
+            <img src="/SM02.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
           </SplideSlide>
         </Splide>
       </div>
