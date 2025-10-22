@@ -50,7 +50,7 @@ export default function Contact() {
         <div className="flex-1 bg-white text-left p-8 m-4">
           <h2 className="font-bold">Preencha o formulário abaixo</h2>
           <form onSubmit={onSubmit} className="flex flex-col mt-4">
-            <label htmlFor="name" className="flex items-center gap-2 text-sm m-0 p-0">
+            <label className="flex items-center gap-2 text-sm m-0 p-0">
               <FontAwesomeIcon icon={faUser} className="w-3 h-3" />
               Seu nome
             </label>
@@ -58,11 +58,12 @@ export default function Contact() {
               type="text"
               name="name"
               required
+              autocomplete="name"
               placeholder="Nome"
               className="p-2 mb-4 text-sm border border-gray-300 rounded"
             />
 
-            <label htmlFor="email" className="flex items-center gap-2 text-sm m-0 p-0">
+            <label className="flex items-center gap-2 text-sm m-0 p-0">
               <FontAwesomeIcon icon={faEnvelope} className="w-3 h-3" />
               Seu melhor e-mail
             </label>
@@ -70,11 +71,12 @@ export default function Contact() {
               type="email"
               name="email"
               required
+              autocomplete="email"
               placeholder="Seu melhor E-mail"
               className="p-2 mb-4 text-sm border border-gray-300 rounded"
             />
 
-            <label htmlFor="message" className="flex items-center gap-2 text-sm m-0 p-0">
+            <label className="flex items-center gap-2 text-sm m-0 p-0">
               <FontAwesomeIcon icon={faMessage} className="w-3 h-3" />
               Sua mensagem
             </label>
