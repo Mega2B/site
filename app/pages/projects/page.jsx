@@ -128,6 +128,18 @@ export default function Projects() {
                                 <SplideSlide>
                                     <img src="/project2/17.jpeg" alt="Mega2B Engenharia" />
                                 </SplideSlide>
+                                <SplideSlide>
+                                    <img src="/project2/18.jpeg" alt="Mega2B Engenharia" />
+                                </SplideSlide>
+                                <SplideSlide>
+                                    <img src="/project2/19.jpeg" alt="Mega2B Engenharia" />
+                                </SplideSlide>
+                                <SplideSlide>
+                                    <img src="/project2/20.jpeg" alt="Mega2B Engenharia" />
+                                </SplideSlide>
+                                <SplideSlide>
+                                    <img src="/project2/21.jpeg" alt="Mega2B Engenharia" />
+                                </SplideSlide>
                             </Splide>
                         </div>
                     </div>
