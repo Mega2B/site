@@ -32,22 +32,22 @@ export default function Projects() {
                         <div>
                             <Splide options={options} aria-label="Mega2B Engenharia">
                                 <SplideSlide>
-                                    <img src="/project1/01.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project1/01.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project1/02.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project1/02.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project1/03.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project1/03.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project1/04.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project1/04.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project1/05.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project1/05.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project1/06.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project1/06.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                             </Splide>
                         </div>
