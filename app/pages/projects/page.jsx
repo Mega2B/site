@@ -78,55 +78,55 @@ export default function Projects() {
                         <div>
                             <Splide options={options} aria-label="Mega2B Engenharia">
                                 <SplideSlide>
-                                    <img src="/project2/01.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/01.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/02.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/02.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/03.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/03.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/04.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/04.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/05.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/05.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/06.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/06.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/07.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/07.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/08.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/08.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/09.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/09.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/10.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/10.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/11.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/11.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/12.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/12.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/13.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/13.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/14.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/14.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/15.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/15.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/16.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/16.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img src="/project2/17.jpeg" alt="Mega2B Engenharia" />
+                                    <img src="/project2/17.webp" alt="Mega2B Engenharia" />
                                 </SplideSlide>
                                 
                             </Splide>
