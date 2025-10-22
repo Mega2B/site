@@ -18,7 +18,7 @@ export default function Services() {
                 <div className="flex md:flex-row flex-col gap-8 p-8 border-1 border-gray-200 rounded-lg shadow-lg mb-12 text-center md:text-left">
                     <div className="flex-1 max-w-[350px] min-w-[220px] relative aspect-[3/2]">
                         <Image
-                            src="/services1.jpeg"
+                            src="/services1.webp"
                             alt="Serviços"
                             fill
                             className="rounded-lg shadow-lg object-cover mb-8"
