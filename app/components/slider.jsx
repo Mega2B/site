@@ -28,10 +28,10 @@ export default function Slider() {
       <div className="hidden md:block" style={{ width: '100%', margin: '0 auto' }}>
         <Splide options={options} aria-label="Slider de imagens">
           <SplideSlide>
-            <img src="/slider1.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
+            <img src="/slider1.webp" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
           </SplideSlide>
           <SplideSlide>
-            <img src="/slider2.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
+            <img src="/slider2.webp" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block' }} />
           </SplideSlide>
         </Splide>
       </div>
@@ -39,10 +39,10 @@ export default function Slider() {
       <div className="block md:hidden" style={{ width: '100%', margin: '0 auto' }}>
         <Splide options={options_sm} aria-label="Slider de imagens">
           <SplideSlide>
-            <img src="/SM01.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block', objectFit: 'cover' }} className='w-full h-full object-cover' />
+            <img src="/SM01.webp" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block', objectFit: 'cover' }} className='w-full h-full object-cover' />
           </SplideSlide>
           <SplideSlide>
-            <img src="/SM02.jpg" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block', objectFit: 'cover' }} className='w-full h-full object-cover' />
+            <img src="/SM02.webp" alt="Mega2B Engenharia" style={{ width: '100%', display: 'block', objectFit: 'cover' }} className='w-full h-full object-cover' />
           </SplideSlide>
         </Splide>
       </div>
