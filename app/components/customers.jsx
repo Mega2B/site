@@ -20,7 +20,7 @@ export default function Customers() {
           </p>
 
           <Image
-            src={"/cust01.jpg"}
+            src={"/cust01.webp"}
             alt="Equipe"
             width={500}
             height={500}
@@ -30,7 +30,7 @@ export default function Customers() {
             className="pb-8"
           />
           <Image
-            src={"/cust02.jpg"}
+            src={"/cust02.webp"}
             alt="Equipe"
             width={500}
             height={500}
@@ -43,7 +43,7 @@ export default function Customers() {
 
         <div className="flex-1">
           <Image
-            src={"/cust03.jpg"}
+            src={"/cust03.webp"}
             alt="Equipe"
             width={500}
             height={500}
@@ -53,7 +53,7 @@ export default function Customers() {
             className="pb-8"
           />
           <Image
-            src={"/cust04.jpg"}
+            src={"/cust04.webp"}
             alt="Equipe"
             width={500}
             height={500}
@@ -66,21 +66,21 @@ export default function Customers() {
           <div className="flex items-center gap-6 rounded-lg mb-12">
             <div className="flex items-end gap-[2px]">
               <Image
-                src="/f-1.png"
+                src="/f-1.webp"
                 alt="Faixa"
                 width={13}
                 height={66}
                 style={{ height: "66px" }}
               />
               <Image
-                src="/f-2.png"
+                src="/f-2.webp"
                 alt="Faixa"
                 width={13}
                 height={102}
                 style={{ height: "102px" }}
               />
               <Image
-                src="/f-3.png"
+                src="/f-3.webp"
                 alt="Faixa"
                 width={13}
                 height={135}

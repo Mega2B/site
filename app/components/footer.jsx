@@ -6,7 +6,7 @@ export default function Footer() {
     <section className="p-8 flex flex-col md:flex-row md:p-20">
       <div className="flex-1 pr-10">
         <Image
-          src="/logo.png"
+          src="/logo.webp"
           alt="Mega2B Engenharia"
           width={300}
           height={300}

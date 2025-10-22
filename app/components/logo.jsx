@@ -15,7 +15,7 @@ export default function Logo() {
       <div className="flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex justify-between items-center w-full md:w-auto">
           <Link href="/">
-            <Image src="/logo.png" alt="Logo" width={200} height={200} className="max-w-[200px]" />
+            <Image src="/logo.webp" alt="Mega2B Engenharia" width={200} height={200} className="max-w-[200px]" />
           </Link>
           <button
             onClick={toggleMenu}

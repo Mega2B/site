@@ -1,22 +1,22 @@
 export default function Highlights() {
   const cards = [
     {
-      image: "/organizacao.png",
+      image: "/organizacao.webp",
       alt: "Organização em todo projeto",
       text: "Organização em todo projeto",
     },
     {
-      image: "/excelencia.png",
+      image: "/excelencia.webp",
       alt: "Manutenção preventiva",
       text: "Manutenção preventiva",
     },
     {
-      image: "/equipamentos.png",
+      image: "/equipamentos.webp",
       alt: "Os melhores equipamentos",
       text: "Os melhores equipamentos",
     },
     {
-      image: "/garantia.png",
+      image: "/garantia.webp",
       alt: "Garantia nas instalações",
       text: "Garantia nas instalações",
     },

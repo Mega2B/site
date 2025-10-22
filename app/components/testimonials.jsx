@@ -59,7 +59,7 @@ export default function Testimonials() {
             <div className="mt-12 flex items-center gap-4">
               <div>
                 <Image
-                  src="/user.jpg"
+                  src="/user.webp"
                   width={50}
                   height={50}
                   className="p-2"
@@ -121,7 +121,7 @@ export default function Testimonials() {
             <div className="mt-12 flex items-center gap-4">
               <div>
                 <Image
-                  src="/user.jpg"
+                  src="/user.webp"
                   width={50}
                   height={50}
                   className="p-2"
@@ -183,7 +183,7 @@ export default function Testimonials() {
             <div className="mt-12 flex items-center gap-4">
               <div>
                 <Image
-                  src="/user.jpg"
+                  src="/user.webp"
                   width={50}
                   height={50}
                   className="p-2"

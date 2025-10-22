@@ -42,7 +42,7 @@ export default function Services() {
 
           <div className="relative">
             <img
-              src="/services-1.png"
+              src="/services-1.webp"
               alt="Nossos Serviços"
               className="w-full h-[340px] max-w-[400px] object-cover"
             />
@@ -64,7 +64,7 @@ export default function Services() {
         <div className="flex flex-col items-center flex-1">
           <p className="font-bold text-sm mb-4">Residência de Alto Padrão</p>
           <img
-            src="/services-2.png"
+            src="/services-2.webp"
             alt="Nossos Serviços"
             className="w-full max-w-[240px]"
           />
@@ -73,7 +73,7 @@ export default function Services() {
         <div className="flex flex-col items-center flex-1">
           <p className="font-bold text-sm mb-4">Hotel Tauá - Atibaia/SP</p>
           <img
-            src="/services-3.png"
+            src="/services-3.webp"
             alt="Nossos Serviços"
             className="w-full max-w-[240px]"
           />
@@ -82,7 +82,7 @@ export default function Services() {
         <div className="flex flex-col items-center flex-1">
           <p className="font-bold text-sm mb-4">Stand Hotel Tauá - Atibaia/SP</p>
           <img
-            src="/services-4.png"
+            src="/services-4.webp"
             alt="Nossos Serviços"
             className="w-full max-w-[240px]"
           />
