@@ -218,6 +218,42 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
+
+                <div className="flex flex-col md:flex-row text-center md:text-left p-6 border-1 border-gray-200 rounded-lg shadow-lg mb-12">
+                    <div className="basis-[30%] p-6">
+                        <div>
+                            <Splide options={options} aria-label="Mega2B Engenharia">
+                                <SplideSlide>
+                                    <img src="/project4/01.webp" alt="Mega2B Engenharia" />
+                                </SplideSlide>
+                                <SplideSlide>
+                                    <img src="/project4/02.webp" alt="Mega2B Engenharia" />
+                                </SplideSlide>
+                                <SplideSlide>
+                                    <img src="/project4/03.webp" alt="Mega2B Engenharia" />
+                                </SplideSlide>
+                            </Splide>
+                        </div>
+                    </div>
+
+                    <div className="basis-[70%] p-6">
+                        <p className="pb-12">
+                            <span className="font-bold">Instalação em Prédio Comercial</span> <br /><br />
+
+                            A Mega 2B Engenharia realizou diagnóstico de carga e vistoria das instalações, redesenhou circuitos e adequou quadros gerais/QD’s com proteções corretas, aterramento reforçado e infraestrutura organizada (NBR 5410 / NR-10). Executou retrofit de cabos e dispositivos, balanceamento de fases e iluminação LED nas áreas comuns, criando pontos dedicados para TI/CFTV/AC e comandos por pavimento.  <br /><br />
+
+                            <span className="font-bold">Destaques Mega 2B:</span> obra sem parar o prédio | acabamento limpo | documentação completa | ganho imediato de eficiência energética.
+                        </p>
+
+                        <div className="bg-[#ED7C2F] text-white px-2 py-4 md:w-[300px] items-center text-center rounded-lg mt-6 hover:bg-[#0A5DA6] transition-colors duration-300 ease-in-out font-bold">
+                            <span>
+                                <Link href="https://wa.me/5511963725837" target="_blank">
+                                    Solicite um orçamento conosco
+                                </Link>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <Contact />
